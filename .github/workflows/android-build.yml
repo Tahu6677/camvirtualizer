@@ -19,7 +19,7 @@ jobs:
           node-version: 20
 
       - name: 📦 Install NativeScript CLI
-        run: npm install -g @nativescript/cli
+        run: npm install -g nativescript
 
       - name: 📦 Install Project Dependencies
         run: npm install
